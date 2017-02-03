@@ -1,0 +1,26 @@
+{
+  "name": "vue-template-parser",
+  "version": "2.1.10",
+  "description": "parse html vue template into ast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undoZen/vue.git"
+  },
+  "keywords": [
+    "vue",
+    "template",
+    "parser",
+    "ast",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/undoZen/vue/issues"
+  },
+  "homepage": "https://github.com/undoZen/vue#readme"
+}

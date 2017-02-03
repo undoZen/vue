@@ -70,6 +70,13 @@ const builds = {
     format: 'cjs',
     external: ['he', 'de-indent']
   },
+  // Web template parser (CommonJS).
+  'web-template-parser': {
+    entry: path.resolve(__dirname, '../src/entries/web-template-parser.js'),
+    dest: path.resolve(__dirname, '../packages/vue-template-parser/index.js'),
+    format: 'cjs',
+    external: ['he', 'de-indent']
+  },
   // Web server renderer (CommonJS).
   'web-server-renderer': {
     entry: path.resolve(__dirname, '../src/entries/web-server-renderer.js'),
